@@ -1,0 +1,23 @@
+{
+  "name": "spotify-kmeans",
+  "version": "1.0.0",
+  "description": "Experiment using k-means clustering to group spotify songs into similar sounding playlists",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshakes/spotify-kmeans.git"
+  },
+  "author": "James Shakespeare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshakes/spotify-kmeans/issues"
+  },
+  "homepage": "https://github.com/jshakes/spotify-kmeans#readme",
+  "dependencies": {
+    "node-kmeans": "^1.1.0"
+  }
+}
