@@ -3,13 +3,15 @@ const tracks = require('./trackdata');
 
 const vectors = tracks.map((track) => {
   const dimensions = new Array(
-    track.audio_features.danceability,
-    track.audio_features.loudness,
+    //track.audio_features.danceability,
+    //track.audio_features.loudness,
     track.audio_features.speechiness,
-    track.audio_features.acousticness,
-    track.audio_features.instrumentalness,
-    track.audio_features.valence,
-    track.audio_features.tempo
+    //track.audio_features.acousticness,
+    track.audio_features.instrumentalness
+    //track.audio_features.valence,
+    //track.audio_features.energy
+    //track.audio_features.tempo
+    //track.audio_features.duration_ms
   );
   return dimensions;
 });
